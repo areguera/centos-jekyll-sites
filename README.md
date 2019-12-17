@@ -1,7 +1,7 @@
 # centos-jekyll-sites
 
 Community effort to make CentOS websites over with
-[https://jekyllrb.com/](jekyll) 4 and [https://getbootstrap.com/](bootstrap) 4.
+[jekyll](https://jekyllrb.com/) 4 and [bootstrap](https://getbootstrap.com/) 4.
 
 ## Installation
 
@@ -49,8 +49,9 @@ At this point you should be able to run the following:
     ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux-musl]
     jekyll 4.0.0
 
-The first time you run jekyll, it will take some time downloading all the gems
-it needs. After this first download, it behaves like a regular command.
+The first time you run jekyll it takes some time downloading all the gems and
+dependencies it needs. After this first download, it behaves like a regular
+command.
 
 # Accessing the final site
 
