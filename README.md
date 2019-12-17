@@ -10,26 +10,26 @@ final site using jekyll in Fedora 31.
 
 1. Clone this repository:
 
-    ]$ git clone git@github.com:areguera/centos-jekyll-sites.git
+       ]$ git clone git@github.com:areguera/centos-jekyll-sites.git
 
 1. Download jekyll container:
 
-    ]$ podman pull jekyll/jekyll
+       ]$ podman pull jekyll/jekyll
 
 2. Create an alias to run jekyll container by adding the following line to
 `~/.bashrc`:
 
-    ]$ alias jekyll='podman run --volume="$PWD:/srv/jekyll:z" --volume="$PWD/vendor/bundle:/usr/local/bundle:z" -p 4000:4000/tcp --rm -it jekyll/jekyll jekyll'
+       ]$ alias jekyll='podman run --volume="$PWD:/srv/jekyll:z" --volume="$PWD/vendor/bundle:/usr/local/bundle:z" -p 4000:4000/tcp --rm -it jekyll/jekyll jekyll'
 
 3. Reload the `./bashrc` file:
 
-    ]$ source ~/.bashrc
+       ]$ source ~/.bashrc
 
 4. Update directory permissions using the container user namespace uid (1000)
 and gid (1000). This is necessary for jekyll inside the container to be able of
 writing in the host filesystem through the specified volumes:
 
-    ]$ podman unstage chown 1000:1000 centos-jekyll-sites
+       ]$ podman unstage chown 1000:1000 centos-jekyll-sites
 
   The permissions must be applied to all the files and directories jekyll reads
   and writes to (e.g., `_site` for the final site, `vendor/bundle` for bundle
@@ -41,7 +41,7 @@ writing in the host filesystem through the specified volumes:
 5. Create the `vendor/bundle` directory inside the `centos-jekyll-site`
 directory:
 
-    ]$ podman unstage mkdir -p vendor/bundle
+       ]$ podman unstage mkdir -p vendor/bundle
 
 At this point you should be able to run the following:
 
@@ -49,8 +49,8 @@ At this point you should be able to run the following:
     ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux-musl]
     jekyll 4.0.0
 
-  The first time you run jekyll, it will take some time downloading all the
-  gems it needs. After this first download, it behaves like a regular command.
+The first time you run jekyll, it will take some time downloading all the gems
+it needs. After this first download, it behaves like a regular command.
 
 # Accessing the final site
 
