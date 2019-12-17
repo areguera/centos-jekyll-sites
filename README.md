@@ -1,6 +1,6 @@
 # centos-jekyll-sites
 
-Community effort to make CentOS websites over with
+Community effort to redesign CentOS websites using
 [jekyll](https://jekyllrb.com/) 4 and [bootstrap](https://getbootstrap.com/) 4.
 
 ## Installation
