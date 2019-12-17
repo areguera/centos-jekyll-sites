@@ -29,7 +29,7 @@ final site using jekyll in Fedora 31.
 and gid (1000). This is necessary for jekyll inside the container to be able of
 writing in the host filesystem through the specified volumes:
 
-       ]$ podman unstage chown 1000:1000 centos-jekyll-sites
+       ]$ podman unshare chown 1000:1000 centos-jekyll-sites
 
   The permissions must be applied to all the files and directories jekyll reads
   and writes to (e.g., `_site` for the final site, `vendor/bundle` for bundle
@@ -41,7 +41,7 @@ writing in the host filesystem through the specified volumes:
 5. Create the `vendor/bundle` directory inside the `centos-jekyll-site`
 directory:
 
-       ]$ podman unstage mkdir -p vendor/bundle
+       ]$ podman unshare mkdir -p vendor/bundle
 
 At this point you should be able to run the following:
 
