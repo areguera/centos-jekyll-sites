@@ -1,0 +1,12 @@
+<h2>Around CentOS</h2>
+<hr class="">
+<script> 
+  jQuery(function($) {
+    $("#rss-feeds").rss("https://www.centos.org/assets/planet.rss",{
+    	limit: 3,
+	ssl: true,
+	entryTemplate: '<li><a href="{url}">{date} : {title}</a><br/>{shortBodyPlain}</li>'    },
+ )
+ })
+</script>
+<div id="rss-feeds"></div>
