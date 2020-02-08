@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="container">
+
+    <div class="row">
+        <div class="col">
+            {% include breadcrumbs.html %}
+            <div class="jumbotron text-white" style="background-image: url(&quot;/assets/img/centos-motif.png&quot;);">
+              <h1><strong>{{ page.title }}</strong></h1>
+              <p class="lead">{{ page.title_lead }}<br></p>
+            </div>
+        </div>
+    </div>
+
+    {% include centos-download-cards.html %}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>As you download and use CentOS Linux, the CentOS Project invites you to <a href="http://wiki.centos.org/Contribute">be a part of the community as a contributor</a>. There are many ways to contribute to the project, from documentation,
+                    QA, and testing to coding changes for <a href="http://wiki.centos.org/SpecialInterestGroup">SIGs</a>, providing mirroring or hosting, and helping other users.</p>
+                <p>ISOs are also available <a href="http://isoredirect.centos.org/centos/8/isos/x86_64/">via Torrent</a>.<br></p>
+                <p>How to <a href="https://wiki.centos.org/TipsAndTricks/sha256sum">verify</a> your iso<br></p>
+                <p>If you plan to create USB boot media, please <a href="https://wiki.centos.org/HowTos/InstallFromUSBkey">read this first</a> to avoid damage to your system.<br></p>
+                <p>If the above is not for you, <a href="http://wiki.centos.org/Download">alternative downloads</a> might be.<br></p>
+                <p>The <a href="http://wiki.centos.org/Manuals/ReleaseNotes/CentOSLinux8">CentOS Linux 8 release notes</a> and <a href="https://wiki.centos.org/Manuals/ReleaseNotes/CentOSStream">CentOS Stream release notes</a> are continuously updated
+                    to include issues and incorporate feedback from users.<br></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+              {{ content | toc }}
+            </div>
+        </div>
+    </div>
+
+</div>
+

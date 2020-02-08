@@ -1,14 +1,14 @@
 ---
 title: "The CentOS SIGs"
+title_lead: |
+  The Special Interest Groups (SIGs), are the teams responsible for their
+  specific CentOS Project variants. Variants are specialized and focused rebuilds
+  of CentOS to meet the needs and requirements of their corresponding communities
+  and the technology associated with those communities.
 permalink: /about/governance/sigs/
 layout: page
 toc: true
 ---
-
-The Special Interest Groups (SIGs), are the teams responsible for their
-specific CentOS Project variants. Variants are specialized and focused rebuilds
-of CentOS to meet the needs and requirements of their corresponding communities
-and the technology associated with those communities.
 
 SIGs are usually self-forming around a technology by a small community of
 enthusiasts and interested parties. In addition to the existing CentOS SIGs, it

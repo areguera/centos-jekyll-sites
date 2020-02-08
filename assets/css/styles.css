@@ -1,0 +1,32 @@
+/* Jekyll-toc customization
+-------------------------------------------------- */
+.section-nav {
+  float: right;
+  border-left: 1px solid #e9ecef;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.section-nav::before {
+  content: "Table of content";
+  font-size: large;
+  font-weight: bold;
+  margin-left: -20px;
+}
+
+.dataTables_filter {
+  margin: 20px;
+  font-size: 1.2em;
+}
+
+.dataTables_info {
+  width: 500px;
+}
+
+/* Anchor offset issue
+-------------------------------------------------- */
+html, body {
+  scroll-padding-top: 75px; /* height of sticky header */
+}

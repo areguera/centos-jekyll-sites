@@ -1,5 +1,5 @@
 ---
-title:      "CentOS Governance - Voting"
+title: "CentOS Governance - Voting"
 layout: page
 toc: true
 ---

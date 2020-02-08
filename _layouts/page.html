@@ -2,16 +2,25 @@
 layout: default
 ---
 
-<article class="page mb-2">
+<div class="container">
 
-  {%- include breadcrumbs.html -%}
+    <div class="row">
+        <div class="col">
+            {% include breadcrumbs.html %}
+            <div class="jumbotron text-white" style="background-image: url(&quot;/assets/img/centos-motif.png&quot;);">
+              <h1><strong>{{ page.title }}</strong></h1>
+              <p class="lead">{{ page.title_lead }}<p>
+            </div>
+        </div>
+    </div>
 
-  <header class="jumbotron">
-    <h1 class="display-4">{{ page.title | escape }}</h1>
-  </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              {{ content | toc }}
+            </div>
+        </div>
+    </div>
 
-  <div class="page-content">
-    {{ content | toc }}
-  </div>
+</div>
 
-</article>

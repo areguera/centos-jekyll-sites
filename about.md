@@ -5,7 +5,7 @@ permalink: /about/
 toc: true
 ---
 
-# CentOS Linux
+## CentOS Linux
 
 The CentOS Linux distribution is a stable, predictable, manageable and
 reproducible platform derived from the sources of Red Hat Enterprise Linux
@@ -34,7 +34,7 @@ or accessed from a custom installer. Read more about the [variants](/variants)
 and [Special Interest Groups](http://wiki.centos.org/SpecialInterestGroup) that
 produce them.
 
-# The CentOS Project
+## The CentOS Project
 
 The CentOS Project is a community-driven free software effort focused around
 the goal of providing a rich base platform for open source communities to build
@@ -44,7 +44,7 @@ several 'upstream' communities to help them layer and distribute their software
 more effectively on a platform they can rely on.
 
 
-## The Governing Board
+### The Governing Board
 
 The CentOS Governing Board is made up of members of the CentOS Project, many of
 whom have been around since the creation of the Project, as well as new members
@@ -54,7 +54,7 @@ guide in the progress and development of the various SIGs, as well as to
 promote CentOS Linux. For more information read the [governance
 page](/about/governance).
 
-## The Project Structure
+### The Project Structure
 
 The CentOS Project is modelled on the structure of the [Apache
 Foundation](http://apache.org), with a governing board that oversees various
