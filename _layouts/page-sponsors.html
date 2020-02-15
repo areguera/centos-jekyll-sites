@@ -1,0 +1,20 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<div class="container">
+      <table class="table table-borderless"> 
+      {% tablerow sponsor in site.sponsors cols:3 %}
+      <div class="card">
+            <img class="card-img-top h-100 d-block" src="{{ sponsor.logo }}" alt="{{ sponsor.name }}">
+            <div class="card-body">
+              <h4 class="card-title">{{ sponsor.name }}</h4>
+              <p class="card-text">{{ sponsor.description }}</p>
+              <a href="{{ sponsor.address }}">{{ sponsor.address }}</a>
+            </div>
+      </div>
+      {% endtablerow %}
+      </table>
+</div>
