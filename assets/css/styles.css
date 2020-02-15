@@ -30,3 +30,17 @@
 html, body {
   scroll-padding-top: 75px; /* height of sticky header */
 }
+
+/* Mirrors table's sorting arrows
+-------------------------------------------------- */
+#table-container-table th {
+  cursor: pointer;
+}
+
+#table-container-table th.sorting_asc {
+	background: rgba(0,0,0,0) url(/assets/img/arrow_asc.gif ) no-repeat right center;
+}
+
+#table-container-table th.sorting_desc {
+	background: rgba(0,0,0,0) url(/assets/img/arrow_desc.gif ) no-repeat right center;
+}
