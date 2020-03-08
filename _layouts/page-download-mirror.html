@@ -7,32 +7,16 @@
 
   {% include header.html -%}
 
-<div class="container">
-
-    <div class="row">
-        <div class="col">
-            {% include breadcrumbs.html %}
-            <div class="jumbotron text-white" style="background-image: url(&quot;/assets/img/centos-motif.png&quot;);">
-              <h1><strong>{{ page.title }}</strong></h1>
-              <p class="lead">{{ page.title_lead }}</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-              {{ content | toc }}
-            </div>
-        </div>
-    </div>
+  <div id="centos-content" class="container">
+    {{ content }}
     <div id='table-container' class="table table-sm small"></div>
-</div>
+  </div>
 
   {% include footer.html -%}
 
   <script src="/assets/js/jquery.min.js"></script>
   <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="/assets/js/script.min.js"></script>
   <script type="text/javascript" src="/assets/js/jquery.csv.min.js"></script>
   <script type="text/javascript" src="/assets/js/jquery.dataTables.min.js"></script>
   <script type="text/javascript" src="/assets/js/dataTables.bootstrap.js"></script>

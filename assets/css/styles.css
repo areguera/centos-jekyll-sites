@@ -1,46 +1,46 @@
-/* Jekyll-toc customization
--------------------------------------------------- */
-.section-nav {
-  float: right;
-  border-left: 1px solid #e9ecef;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: 30px;
-  margin-bottom: 30px;
+.scrolled {
+  background-color: rgba(0,0,0,0.9) !important;
+  -webkit-transition: background-color 500ms linear;
+  -moz-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
 }
 
-.section-nav::before {
-  content: "Table of content";
-  font-size: large;
-  font-weight: bold;
-  margin-left: -20px;
-}
+/* Anchor offset issue-------------------------------------------------- */
 
-.dataTables_filter {
-  margin: 20px;
-  font-size: 1.2em;
-}
-
-.dataTables_info {
-  width: 500px;
-}
-
-/* Anchor offset issue
--------------------------------------------------- */
 html, body {
-  scroll-padding-top: 75px; /* height of sticky header */
+  scroll-padding-top: 75px;
 }
 
-/* Mirrors table's sorting arrows
--------------------------------------------------- */
+/* Mirrors table's sorting arrows-------------------------------------------------- */
+
 #table-container-table th {
   cursor: pointer;
+  /*width: 100px;*/
 }
 
 #table-container-table th.sorting_asc {
-	background: rgba(0,0,0,0) url(/assets/img/arrow_asc.gif ) no-repeat right center;
+  background: rgba(0,0,0,0) url(/assets/img/arrow_asc.gif ) no-repeat right center;
+  padding-right: 30px;
 }
 
 #table-container-table th.sorting_desc {
-	background: rgba(0,0,0,0) url(/assets/img/arrow_desc.gif ) no-repeat right center;
+  background: rgba(0,0,0,0) url(/assets/img/arrow_desc.gif ) no-repeat right center;
+  padding-right: 30px;
 }
+
+.dataTables_info {
+  white-space: nowrap;
+}
+
+ol.breadcrumb {
+  background-color: rgb(0,0,0,0);
+  padding: 0;
+  margin-top: 0;
+  color: #fff;
+}
+
+h1 {
+  color: #ffffff;
+}
+

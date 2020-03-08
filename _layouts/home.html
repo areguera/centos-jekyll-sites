@@ -2,27 +2,18 @@
 layout: default
 ---
 
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <div class="jumbotron text-white" style="background-image: url(&quot;assets/img/centos-motif.png&quot;);">
-                <h1><strong>The CentOS Project</strong></h1>
-                <p class="lead">The CentOS Project is a community-driven free software effort focused on delivering a robust open source ecosystem around a Linux platform.<br></p>
-            </div>
-            <p>We offer two Linux distributions:</p>
-        </div>
-    </div>
+<div id="centos-content" class="container">
+  {% include centos-download-cards.html -%}
 
-    {% include centos-download-cards.html -%}
+  <div class="row">
+      <div class="col-md-12">
+          <p>In support of this community effort, the CentOS Project provides extensive resources to build, test, release, and maintain code on these platforms.</p>
+      </div>
+  </div>
+  <div class="row">
+  {% include centos-news.html %}
+  {% include centos-sponsorship.html %}
+  {% include centos-around.html %}
+  </div>
 
-    <div class="row">
-        <div class="col-md-12">
-            <p>In support of this community effort, the CentOS Project provides extensive resources to build, test, release, and maintain code on these <br>platforms.</p>
-        </div>
-    </div>
-    <div class="row">
-    {% include centos-news.html %}
-    {% include centos-sponsorship.html %}
-    {% include centos-around.html %}
-    </div>
 </div>

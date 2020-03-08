@@ -2,25 +2,14 @@
 layout: default
 ---
 
-<div class="container">
-
+<div id="centos-content" class="container">
     <div class="row">
-        <div class="col">
-            {% include breadcrumbs.html %}
-            <div class="jumbotron text-white" style="background-image: url(&quot;/assets/img/centos-motif.png&quot;);">
-              <h1><strong>{{ page.title }}</strong></h1>
-              <p class="lead">{{ page.title_lead }}<p>
-            </div>
+        <div class="col-md-4 col-xl-3 offset-xl-0">
+          <h5>Table of contents</h5>
+          {% include toc.html html=content %}
+        </div>
+        <div class="col-md-4 col-xl-9 offset-xl-0">
+        {{ content }}
         </div>
     </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-              {{ content | toc }}
-            </div>
-        </div>
-    </div>
-
 </div>
-
