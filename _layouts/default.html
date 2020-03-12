@@ -7,19 +7,9 @@
   {% include header.html -%}
   {{ content }}
   {% include footer.html -%}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/script.min.js"></script>
-    <script src="/assets/js/jquery.rss.js"></script>
-    <script>
-      jQuery(function($) {
-        $("#rss-feeds").rss("https://www.centos.org/assets/planet.rss",{
-          limit: 5,
-      ssl: true,
-      entryTemplate: '<li><a href="{url}">{date} : {title}</a><br/>{shortBodyPlain}</li>'    },
-     )
-     })
-    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/script.min.js"></script>
 </body>
 
 </html>
