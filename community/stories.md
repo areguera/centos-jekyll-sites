@@ -5,6 +5,7 @@ title_lead: |
   commercial ambition we set out to try and solve problems for people as they
   exist in the sysadmin / operations trenches around the world.
 layout: page
+permalink: /:path/:basename/index.html
 toc: true
 ---
 

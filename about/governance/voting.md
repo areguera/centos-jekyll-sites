@@ -1,6 +1,7 @@
 ---
 title: "CentOS Governance - Voting"
 layout: page
+permalink: /:path/:basename/index.html
 toc: true
 ---
 

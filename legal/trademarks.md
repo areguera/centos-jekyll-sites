@@ -1,6 +1,7 @@
 ---
 title: "CentOS Trademark Guidelines"
 layout: page
+permalink: /:path/:basename/index.html
 toc: true
 ---
 ## Introduction

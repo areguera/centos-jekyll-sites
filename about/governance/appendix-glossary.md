@@ -1,6 +1,6 @@
 ---
 title:  "Glossary"
-permalink: /about/governance/appendix-glossary/
+permalink: /:path/:basename/index.html
 layout: page
 toc: true
 ---

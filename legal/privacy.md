@@ -1,6 +1,7 @@
 ---
 title: "CentOS Privacy Policy"
 layout: page
+permalink: /:path/:basename/index.html
 toc: true
 ---
 

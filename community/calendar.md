@@ -1,6 +1,7 @@
 ---
 title: CentOS IRC meetings
 layout: page
+permalink: /:path/:basename/index.html
 toc: true
 ---
 

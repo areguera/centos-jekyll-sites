@@ -1,7 +1,7 @@
 ---
 title: "CentOS Legal"
 layout: page
-permalink: /legal/index.html
+permalink: /:path/:basename/index.html
 toc: true
 ---
 

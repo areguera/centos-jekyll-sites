@@ -1,7 +1,7 @@
 ---
 title: About CentOS
 layout: page 
-permalink: /about/index.html
+permalink: /:path/:basename/index.html
 toc: true
 ---
 

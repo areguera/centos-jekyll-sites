@@ -1,6 +1,7 @@
 ---
 title:  "CentOS Governance - Joining the Project"
 layout: page
+permalink: /:path/:basename/index.html
 toc: true
 ---
 

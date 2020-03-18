@@ -1,6 +1,6 @@
 ---
 title: "CentOS Governance"
-permalink: /about/governance
+permalink: /:path/:basename/index.html
 layout: page
 toc: true
 ---

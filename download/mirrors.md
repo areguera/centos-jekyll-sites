@@ -2,7 +2,7 @@
 title: Mirror List
 title_lead: List of CentOS official mirrors.
 layout: page-download-mirror
-permalink: /download/mirrors/
+permalink: /:path/:basename/index.html
 ---
 
 CentOS welcomes new mirror sites.  If you are considering setting up a public

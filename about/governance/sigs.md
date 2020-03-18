@@ -5,7 +5,7 @@ title_lead: |
   specific CentOS Project variants. Variants are specialized and focused rebuilds
   of CentOS to meet the needs and requirements of their corresponding communities
   and the technology associated with those communities.
-permalink: /about/governance/sigs/
+permalink: /:path/:basename/index.html
 layout: page
 toc: true
 ---

@@ -2,7 +2,7 @@
 title: AltArch Mirror List
 title_lead: List of CentOS Mirrors providing alternative arquitectures.
 layout: page-download-mirror-altarch
-permalink: /download/altarch-mirrors/
+permalink: /:path/:basename/index.html
 ---
 
 CentOS welcomes new mirror sites.  If you are considering setting up a public
