@@ -6,6 +6,7 @@ title_lead: |
   packages. This may include replacing everything down to the kernel,
   networking, and other subsystems.
 layout: page
+permalink: /variants/index.html
 toc: true
 ---
 

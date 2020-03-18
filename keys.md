@@ -1,6 +1,7 @@
 ---
 title: "CentOS GPG Keys"
 layout: page
+permalink: /keys/index.html
 toc: true
 ---
 

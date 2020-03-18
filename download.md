@@ -2,8 +2,8 @@
 title: Download
 title_lead: |
   You now have two ways to consume the CentOS platform, CentOS Linux and CentOS Stream:
-permalink: /download
 layout: page-download
+permalink: /download/index.html
 toc: true
 ---
 
