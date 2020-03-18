@@ -1,6 +1,6 @@
 ---
 title: "CentOS Governing Responsibilities"
-permalink: /about/governance/board-responsibilities
+permalink: /:path/:basename/index.html
 layout: page
 toc: true
 ---
