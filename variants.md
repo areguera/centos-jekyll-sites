@@ -30,7 +30,7 @@ It's as easy as using CentOS core. There are two main ways:
 You may want to look for additional tips, notes, and documentation in the [SIG that produces the variant](http://wiki.centos.org/SpecialInterestGroup).
 
 <div class="alert alert-info" role="alert">
-  <h4 class="alert-heading">Note</h4>
+  <p class="h5 alert-heading"><i class="fas fa-edit"></i> <strong>Note:</strong></p>
   <p>The idea of CentOS Variants is very much a proposal at this stage,
   something we hope to have confirmed as a process and ensure we have resources
   allocated to make this happen by the early summer of 2014. However, if you

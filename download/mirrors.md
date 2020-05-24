@@ -10,4 +10,4 @@ mirror site for CentOS, [please follow the mirror
 guidelines](http://wiki.centos.org/HowTos/CreatePublicMirrors) to make sure
 that your mirror is consistent with the other mirror sites.  If you're
 searching for mirrors providing AltArch content (like ppc64, ppc64le, aarch64,
-armfhp) please use [this link](/download/altarch-mirrors/).
+armfhp) please use [this link](/download/mirrors-altarch/).

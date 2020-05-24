@@ -1,13 +1,14 @@
 ---
-title:  "CentOS Governance - Joining the Project"
+title:  "Joining the Project"
 layout: page
 permalink: /:path/:basename/index.html
 toc: true
 ---
 
-# CentOS Governance - Joining the Project
-
-There are 3 primary paths within the CentOS Project  for individuals to obtain and grow merit. The main path is  by proving yourself within a SIG or between SIGs (if the SIGs are related in such a way that merit would be transferred.)  A second path is  to get involved in the primary technical SIG, CentOS Core.  A third path is to be part of the Governing Board.
+There are 3 primary paths within the CentOS Project  for individuals to obtain and grow merit.
+The main path is  by proving yourself within a SIG or between SIGs (if the SIGs are related in such a way that merit would be transferred.)
+A second path is  to get involved in the primary technical SIG, CentOS Core.
+A third path is to be part of the Governing Board.
 
 ## Variant or Functional SIGs
 Individuals wishing to participate in the CentOS Project typically start as users then contributors and eventually committers to a SIG. A contributor is anyone who contributes something to the Project, such as documentation, code, forum help, wiki edits, IRC moderating, and so forth. A committer is a contributor who has gained the right through merit to commit their own contributions directly to Project source repositories, such as git.centos.org (code) and wiki.centos.org (documentation.)

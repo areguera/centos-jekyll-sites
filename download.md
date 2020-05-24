@@ -1,7 +1,5 @@
 ---
 title: Download
-title_lead: |
-  You now have two ways to consume the CentOS platform, CentOS Linux and CentOS Stream:
 layout: page-download
 permalink: /:path/:basename/index.html
 toc: true

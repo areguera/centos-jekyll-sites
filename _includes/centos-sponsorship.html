@@ -1,12 +1,10 @@
-<div class="col-md-4 col-xl-4">
-  <h2>Sponsorship</h2>
-  <p>CentOS would not be possible without the support of our sponsors. We would like to thank the following product/service for being a CentOS <br>sponsor:</p>
-  <div class="carousel slide carousel-fade" data-ride="carousel" id="carousel-1">
-      <div class="carousel-inner" role="listbox">
-      {% for sponsor in site.sponsors %}
-      <div class="carousel-item {{ sponsor.status }}"><a href="{{ sponsor.address }}" rel="nofollow"><img class="d-block h-100 img-rounded" src="{{ sponsor.logo }}"></a></div> 
-      {% endfor %}
-      </div>
+<h2>Sponsorship</h2>
+<p>CentOS would not be possible without the support of our sponsors. We would like to thank the following product/service for being a CentOS sponsor:</p>
+<div class="carousel slide carousel-fade" data-ride="carousel" id="carousel-1">
+    <div class="carousel-inner" role="listbox">
+    {% for sponsor in site.sponsors %}
+    <div class="carousel-item {{ sponsor.status }}"><a href="{{ sponsor.address }}" rel="nofollow"><img class="d-block h-100 img-rounded" src="{{ sponsor.logo }}"></a></div>
+    {% endfor %}
     </div>
-    <p>If you value our work, please consider <a href="/sponsors">becoming a sponsor</a>!</p>
 </div>
+<p>If you value our work, please consider <a href="/sponsors">becoming a sponsor</a>!</p>

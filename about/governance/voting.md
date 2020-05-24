@@ -5,8 +5,6 @@ permalink: /:path/:basename/index.html
 toc: true
 ---
 
-# CentOS Governance - Voting
-
 The voting system used by all SIGs and the Governing Board uses a
 [consensus-based decision
 model](/about/governance/appendix-glossary/#consensus-decision-making) except

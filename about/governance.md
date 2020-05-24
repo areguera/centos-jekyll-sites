@@ -1,5 +1,5 @@
 ---
-title: "CentOS Governance"
+title: "Governance"
 permalink: /:path/:basename/index.html
 layout: page
 toc: true

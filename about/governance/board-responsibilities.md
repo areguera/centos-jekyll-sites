@@ -1,5 +1,5 @@
 ---
-title: "CentOS Governing Responsibilities"
+title: "Responsibilities"
 permalink: /:path/:basename/index.html
 layout: page
 toc: true

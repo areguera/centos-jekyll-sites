@@ -6,20 +6,18 @@
 <body style="font-family: Montserrat, sans-serif;">
   {% include header.html -%}
 
-  <div id="centos-content" class="container">
-  {% include centos-download-cards.html -%}
-
-  <div class="row">
-      <div class="col-md-12">
-          <p>In support of this community effort, the CentOS Project provides extensive resources to build, test, release, and maintain code on these platforms.</p>
+  <div class="centos-content">
+      <div class="container" style="background-color: #fff;">
+          <div class="row">
+              <div class="col-md-4 col-xl-8 offset-xl-0">
+                {% include centos-news.html -%}
+                {% include centos-around.html -%}
+              </div>
+              <div class="col-md-4 col-xl-4">
+                {% include centos-sponsorship.html %}
+              </div>
+          </div>
       </div>
-  </div>
-  <div class="row">
-  {% include centos-news.html %}
-  {% include centos-sponsorship.html %}
-  {% include centos-around.html %}
-  </div>
-
   </div>
 
   {% include footer.html -%}
@@ -27,7 +25,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
   <script src="/assets/js/jquery.rss.js"></script>
-  <script src="/assets/js/script.min.js"></script>
   <script>
     jQuery(function($) {
       $("#rss-feeds").rss("https://www.centos.org/assets/planet.rss", {

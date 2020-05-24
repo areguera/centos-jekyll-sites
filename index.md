@@ -5,8 +5,7 @@
 layout: home
 title: The CentOS Project
 title_lead: |
-  The CentOS Project is a community-driven free software effort focused on
-  delivering a robust open source ecosystem around a Linux platform. We offer
-  two Linux distros.
+  Community-driven free software effort focused on delivering a robust open
+  source ecosystem around a Linux platform.
 
 ---
