@@ -62,12 +62,9 @@ platform that all other variants are built from.
 
 ## SIG Governance
 
-<div class="captioned-image">
-  <img class="img-responsive" src="/about/governance/sig-maturity-crossover.png" alt="Illustration" />
-  <div class="caption">
-    <p><i><!-- caption can go here --></i></p>
-  </div>
-</div>
+<figure class="figure">
+  <img class="figure-img img-fluid" src="/about/governance/sig-maturity-crossover.png" alt="SIG Governance">
+</figure>
 
 The SIGs themselves also have a merit path toward autonomy and accountability
 for Project aspects. The determination of merit level is reflected in the

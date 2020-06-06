@@ -15,12 +15,10 @@ The CentOS Project governance structure has two main tiers:
   release, or building and maintaining a functional aspect of the Project, such
   as infrastructure or documentation.
 
-<div class="captioned-image">
-  <img class="img-responsive" src="/about/governance/governance-greenhouse.png" alt="Image describing the board">
-  <div class="caption">
-    <p><i>The Governing Board is like a greenhouse, providing support for starting and maturing a SIG the way a greenhouse uses sunlight, water, nutrients, and soil to turn seeds in to fruiting plants.</i></p>
-  </div>
-</div>
+<figure class="figure">
+  <img class="figure-img img-fluid" src="/about/governance/governance-greenhouse.png" alt="Image describing the board">
+  <figcaption class="figure-caption">The Governing Board is like a greenhouse, providing support for starting and maturing a SIG the way a greenhouse uses sunlight, water, nutrients, and soil to turn seeds in to fruiting plants.</figcaption>
+</figure>
 
 ## The CentOS Governing Board
 
