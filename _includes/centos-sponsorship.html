@@ -3,7 +3,7 @@
 <div class="carousel slide carousel-fade" data-ride="carousel" id="carousel-1">
     <div class="carousel-inner" role="listbox">
     {% for sponsor in site.sponsors %}
-    <div class="carousel-item {{ sponsor.status }}"><a href="{{ sponsor.address }}" rel="nofollow"><img class="d-block h-100 img-rounded" src="{{ sponsor.logo }}"></a></div>
+    <div class="carousel-item {{ sponsor.status }}"><a href="{{ sponsor.address }}" rel="nofollow"><img class="img-fluid" style="height: 50px" src="{{ sponsor.logo }}"></a></div>
     {% endfor %}
     </div>
 </div>

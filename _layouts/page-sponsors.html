@@ -4,15 +4,15 @@ layout: page-single
 
 {{ content }}
 
-<table class="table table-borderless">
-{% tablerow sponsor in site.sponsors cols:3 %}
-<div class="card">
-      <img class="card-img-top h-100 d-block" src="{{ sponsor.logo }}" alt="{{ sponsor.name }}">
+<div class="d-flex flex-wrap">
+{% for sponsor in site.sponsors %}
+<div class="card flex-grow-1">
+      <img class="card-img-top img-fluid" src="{{ sponsor.logo }}" alt="{{ sponsor.name }}">
       <div class="card-body">
-        <h4 class="card-title">{{ sponsor.name }}</h4>
+        <h4 class="card-title"><strong>{{ sponsor.name }}</strong></h4>
         <p class="card-text">{{ sponsor.description }}</p>
         <a href="{{ sponsor.address }}">{{ sponsor.address }}</a>
       </div>
 </div>
-{% endtablerow %}
-</table>
+{% endfor %}
+</div>
